@@ -8,10 +8,12 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children:  [
+      children: [
         Text(title, style: TextStyle(fontSize: 28, color: Colors.white)),
         Spacer(),
-        CustomSearchIcon(icon: icon,),
+        CustomSearchIcon(
+          icon:icon,
+          ),
       ],
     );
   }

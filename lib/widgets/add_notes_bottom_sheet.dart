@@ -12,9 +12,9 @@ class AddNotesBottomSheet extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 50),
-            CustomTextField(hintText: "Enter title"),
             SizedBox(height: 40),
+            CustomTextField(hintText: "Enter title"),
+            SizedBox(height: 35),
             CustomTextField(hintText: "Enter content", maxLines: 7),
             SizedBox(height: 30),
             CustomButton(),
